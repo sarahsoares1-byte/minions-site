@@ -7,7 +7,7 @@ O site apresenta informações sobre os Minions, seus personagens, curiosidades 
 
 ## Tecnologias utilizadas
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 
 ## Funcionalidades
@@ -31,10 +31,4 @@ O resultado classifica o visitante em três níveis:
 - Super fã.
 - Fã número 1 dos Minions.
 
-## Testes realizados
-- Campos vazios.
-- Números negativos.
-- Valores decimais.
-- Letras nos campos numéricos.
-- Valores acima do limite.
-- Preenchimento correto.
+
