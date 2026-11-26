@@ -111,5 +111,87 @@ ul {
 li {
     margin: 8px 0;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    font-weight: bold;
+    color: #234b87;
+}
+input {
+    padding: 12px;
+    border: 2px solid #ffd900;
+    border-radius: 8px;
+    font-size: 16px;
+}
+button {
+    background-color: #234b87;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #17345e;
+}
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.sucesso {
+    background-color: #e1f5d5;
+    color: #245b20;
+}
+.erro {
+    background-color: #ffe0e0;
+    color: #a00000;
+}
+footer {
+    background-color: #234b87;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+    nav a {
+        margin: 4px;
+        padding: 8px 10px;
+    }
+    section {
+        width: 95%;
+        padding: 18px;
+    }
+    .personagens {
+        flex-direction: column;
+        align-items: center;
+    }
+    .personagens article {
+        width: 100%;
+    }
+}
+.minion-cima {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 10vw;
+    max-width: 350px;
+    min-width: 80px;
+    height: auto;
+    z-index: 1000;
+    margin: 0;
+}
+
 
 
